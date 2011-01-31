@@ -1,0 +1,98 @@
+html,body,div,ul,li,p {
+   margin:0;
+   padding:0;
+}
+body {
+   background:#068;
+   color:#333;
+   font:13px Georgia,"Times New Roman",Times,serif;
+   text-align:justify;
+   line-height:1.45em;
+}
+a {
+   outline:0;
+   color:#333;
+   border-bottom:1px dotted #08B;
+   text-decoration:none;
+}
+img {
+   border:0;
+   vertical-align:-35%;
+}
+h1 {
+   color:#222;
+   margin:5px auto;
+   font:280% "Trebuchet MS","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+   padding:0 0 0 24px;
+}
+h2 {
+   color:#555;
+   margin:5px auto;
+   font:164% "Trebuchet MS","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+   padding:0 0 0 24px;
+}
+h3 {
+   color:#888;
+   margin:0;
+   font-size:100%;
+   padding:0 0 0 5em;
+}
+h4 {}
+h5 {
+   color:#000;
+   margin:5px auto;
+   font-size:100%;
+   font-weight:bold;
+}
+ul {
+   float:right;
+   padding:0 2em;
+   margin-top:-1em;
+   font-size:18px;
+}
+ul li {
+   list-style:none;
+   text-align:center;
+   float:left;
+}
+ul li a {
+   color:#fff;
+   border:0;
+   padding:0 0.5em;
+}
+ul li a:hover {
+   border-bottom:3px dotted #888;
+}
+.nbsp {
+   position:relative;
+   display:block;
+   clear:both;
+}
+#wrap {
+   position:relative;
+   overflow:hidden;
+   margin:0 auto;
+   padding:1em 0 3em 0;
+   width:60em;
+}
+#header {
+   height:44px;
+}
+#body {
+   -moz-border-radius:2em;
+   -webkit-border-radius:2em;
+   border-radius:2em;
+   background:#ffffff;
+   padding:2em 2em 4em 2em;
+}
+#body p {
+   padding:0 5em 1em 5em;
+}
+#info {
+   padding:0 24px 3em 24px;
+}
+#sidebar {
+   float:right;
+   text-align:center;
+   padding:0 0 2em 2em;
+}
