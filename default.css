@@ -5,7 +5,7 @@ html,body,div,ul,li,p {
 body {
    background:#068;
    color:#333;
-   font:13px Georgia,"Times New Roman",Times,serif;
+   font:14px "Trebuchet MS","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
    text-align:justify;
    line-height:1.45em;
 }
@@ -37,32 +37,6 @@ h3 {
    font-size:100%;
    padding:0 0 0 5em;
 }
-h4 {}
-h5 {
-   color:#000;
-   margin:5px auto;
-   font-size:100%;
-   font-weight:bold;
-}
-ul {
-   float:right;
-   padding:0 2em;
-   margin-top:-1em;
-   font-size:18px;
-}
-ul li {
-   list-style:none;
-   text-align:center;
-   float:left;
-}
-ul li a {
-   color:#fff;
-   border:0;
-   padding:0 0.5em;
-}
-ul li a:hover {
-   border-bottom:3px dotted #888;
-}
 .nbsp {
    position:relative;
    display:block;
@@ -72,8 +46,8 @@ ul li a:hover {
    position:relative;
    overflow:hidden;
    margin:0 auto;
-   padding:1em 0 3em 0;
-   width:60em;
+   padding:2em 0 3em 0;
+   width:53em;
 }
 #header {
    height:44px;
