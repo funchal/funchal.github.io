@@ -22,15 +22,19 @@
     </head>
     <body>
         <div id="wrap">
-            <div id="body">
+            <div id="body" itemscope itemtype="http://data-vocabulary.org/Person">
                 <div id="sidebar">
-                    <img src="photo.png" alt="" width="150" height="150" />
+                    <img itemprop="photo" src="photo.png" alt="" width="150" height="150" />
                 </div>
 
-                <h1>Giovanni Funchal</h1>
+                <h1 itemprop="name">Giovanni Funchal</h1>
                 <div id="info">
                     Brazilian, born May 5th, 1985.<br/>
-                    34, rue du Colonel Bougault - 38100 Grenoble, France.<br/>
+                    <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+                    <span itemprop="street-address">34, rue du Colonel Bougault</span> -
+                    <span itemprop="postal-code">38100</span>
+                    <span itemprop="locality">Grenoble</span>,
+                    <span itemprop="contry-name">France</span>.<br/>
                     Phone: +33(0)648299276 — Email: <a href="mailto:gafunchal@gmail.com">gafunchal@gmail.com</a>
                 </div>
 
