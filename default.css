@@ -5,7 +5,7 @@ html,body,div,ul,li,p {
 body {
    background:#068;
    color:#333;
-   font:14px "Trebuchet MS","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+   font:14px Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Trebuchet MS","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
    text-shadow:0 0 1px #CCC;
    text-align:justify;
    line-height:1.45em;
