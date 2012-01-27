@@ -6,7 +6,6 @@ body {
    background:#068;
    color:#333;
    font:14px Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Trebuchet MS","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
-   text-shadow:0 0 1px #CCC;
    text-align:justify;
    line-height:1.45em;
 }
@@ -23,13 +22,14 @@ img {
 h1 {
    color:#222;
    margin:5px auto;
-   font:280% "Trebuchet MS","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+   font:280% Palatino, "Palatino Linotype", "Book Antiqua", Georgia,"Trebuchet MS","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+   text-shadow:0 0 1px #AAA;
    padding:0 0 0 24px;
 }
 h2 {
    color:#555;
    margin:5px auto;
-   font:164% "Trebuchet MS","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+   font:164% Palatino, "Palatino Linotype", "Book Antiqua", Georgia,"Trebuchet MS","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
    padding:0 0 0 24px;
 }
 h3 {
