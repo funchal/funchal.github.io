@@ -74,8 +74,16 @@ h3 {
   padding: 0 1.8em 1em 1.8em;
 }
 
-#sidebar {
+.sidebar {
   float: right;
   text-align: center;
   padding: 0 0 2em 2em;
+}
+
+.sidebar a {
+  border: 0;
+}
+
+.profile {
+  padding: 0.2em;
 }
