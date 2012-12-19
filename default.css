@@ -1,72 +1,81 @@
-html,body,div,ul,li,p {
-   margin:0;
-   padding:0;
+html, body, div, ul, li, p {
+  margin: 0;
+  padding: 0;
 }
+
 body {
-   background:#068;
-   color:#333;
-   font:14px Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Trebuchet MS","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
-   text-align:justify;
-   line-height:1.45em;
+  background: #068;
+  color: #333;
+  font: 14px "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Trebuchet MS", "Lucida Grande", sans-serif;
+  text-align: justify;
+  line-height: 1.45em;
 }
+
 a {
-   outline:0;
-   color:#333;
-   border-bottom:1px dotted #08B;
-   text-decoration:none;
+  outline: 0;
+  color: #333;
+  border-bottom: 1px dotted #08B;
+  text-decoration: none;
 }
+
 img {
-   border:0;
-   vertical-align:-35%;
+  border: 0;
 }
+
 h1 {
-   color:#222;
-   margin:5px auto;
-   font:280% Palatino, "Palatino Linotype", "Book Antiqua", Georgia,"Trebuchet MS","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
-   text-shadow:0 0 1px #AAA;
-   padding:0 0 0 24px;
+  color: #222;
+  margin: 5px auto;
+  font: 280% "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Trebuchet MS", "Lucida Grande", sans-serif;
+  text-shadow: 0 0 1px #AAA;
+  padding: 0 0 0 24px;
 }
+
 h2 {
-   color:#555;
-   margin:5px auto;
-   font:164% Palatino, "Palatino Linotype", "Book Antiqua", Georgia,"Trebuchet MS","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
-   padding:0 0 0 24px;
+  color: #555;
+  margin: 5px auto;
+  font: 164% "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Trebuchet MS", "Lucida Grande", sans-serif;
+  text-shadow: 0 0 1px #AAA;
+  padding: 0 0 0 24px;
 }
+
 h3 {
-   color:#888;
-   margin:0;
-   font-size:100%;
-   padding:0 0 0 5em;
+  color: #48A;
+  margin: 0;
+  font-size: 100%;
+  padding: 0 0 0 5em;
 }
+
 .nbsp {
-   position:relative;
-   display:block;
-   clear:both;
+  position: relative;
+  display: block;
+  clear: both;
 }
+
 #wrap {
-   position:relative;
-   margin:0 auto;
-   padding:2em 0 3em 0;
-   width:54em;
+  position: relative;
+  margin: 0 auto;
+  padding: 3em 0 5em 0;
+  width: 56em;
 }
-#header {
-   height:44px;
-}
+
 #body {
-   -moz-border-radius:2em;
-   -webkit-border-radius:2em;
-   border-radius:2em;
-   background:#ffffff;
-   padding:2em 2em 4em 2em;
+  -moz-border-radius: 3em;
+  -webkit-border-radius: 3em;
+  border-radius: 3em;
+  background: #ffffff;
+  padding: 2em 2em 3em 2em;
 }
+
 #body p {
-   padding:0 5em 1em 5em;
+  padding: 0 5em 1em 5em;
 }
+
 #info {
-   padding:0 24px 3em 24px;
+  padding: 0 1.8em 1em 1.8em;
 }
+
 #sidebar {
-   float:right;
-   text-align:center;
-   padding:0 0 2em 2em;
+  float: right;
+  text-align: center;
+  padding: 0 0 2em 2em;
 }
