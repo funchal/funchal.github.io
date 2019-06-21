@@ -1,21 +1,28 @@
-html, body, div, ul, li, p {
+html, body, div, p {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background: #068;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2em;
+  background: #fefefe;
   color: #333;
-  font: 14px "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Trebuchet MS", "Lucida Grande", sans-serif;
-  text-align: justify;
+  font: 16px 'Nunito', sans-serif;
   line-height: 1.45em;
+  text-align: justify;
 }
 
 a {
   outline: 0;
-  color: #333;
-  border-bottom: 1px dotted #08B;
+  color: #08b;
   text-decoration: none;
+  border: 0;
+}
+
+a:hover {
+  border-bottom: 1px dashed #08B;
 }
 
 img {
@@ -24,60 +31,37 @@ img {
 
 h1 {
   color: #222;
-  margin: 5px auto;
-  font: 280% "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Trebuchet MS", "Lucida Grande", sans-serif;
+  margin: 5px 0;
+  font: 200% 'Nunito', sans-serif;
   text-shadow: 0 0 1px #AAA;
-  padding: 0 0 0 24px;
 }
 
 h2 {
   color: #555;
-  margin: 5px auto;
-  font: 164% "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Trebuchet MS", "Lucida Grande", sans-serif;
+  margin: 5px 0;
+  font: 150% 'Nunito', sans-serif;
   text-shadow: 0 0 1px #AAA;
-  padding: 0 0 0 24px;
 }
 
 h3 {
-  color: #48A;
+  color: #08B;
   margin: 0;
-  font-size: 100%;
-  padding: 0 0 0 4em;
+  font: 100% 'Nunito', sans-serif;
+  padding: 0 0 0 12px;
 }
 
-.nbsp {
-  position: relative;
-  display: block;
-  clear: both;
-}
-
-#wrap {
-  position: relative;
-  margin: 0 auto;
-  padding: 3em 0 4em 0;
-  width: 56em;
-}
-
-#body {
-  -moz-border-radius: 3em;
-  -webkit-border-radius: 3em;
-  border-radius: 3em;
-  background: #ffffff;
-  padding: 2em 2em 3em 2em;
-}
-
-#body p {
-  padding: 0 4em 1em 4em;
+p {
+  padding: 0 0 1em 24px;
 }
 
 #info {
-  padding: 0 1.8em 1em 1.8em;
+  padding: 0 0 1em 0;
 }
 
 .sidebar {
   float: right;
   text-align: center;
-  padding: 0 0 2em 2em;
+  padding: 0 0 0 2em;
 }
 
 .sidebar a {
@@ -85,5 +69,5 @@ h3 {
 }
 
 .profile {
-  padding: 0.2em;
+  padding: 0.3em;
 }
